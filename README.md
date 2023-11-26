@@ -1,9 +1,9 @@
 # ScriptSheet
-ScriptSheet is a rudimentary Python script to convert a set of annotations made by the [https://github.com/elias-sundqvist/obsidian-annotator](Annotator) plugin to a [https://github.com/stark-illuminations/markdownEos](markdownEos)-ready cuelist. It does not require access to the script, just the markdown file used to edit it.
+[[ScriptSheet|scriptsheet.py]] is a rudimentary Python script to convert a set of annotations made by the [Annotator](https://github.com/elias-sundqvist/obsidian-annotator) plugin to a [markdownEos](https://github.com/stark-illuminations/markdownEos)-ready cuelist. It does not require access to the script, just the markdown file used to edit it.
 
 ## Known Issues
 ---
-- ScriptSheet is incompatible with [https://github.com/platers/obsidian-linter](Linter) for Obsidian, as Linter often causes problems with Annotator. Disable Linter in the Obsidian vault used for scripts.
+- ScriptSheet is incompatible with [Linter](https://github.com/platers/obsidian-linter) for Obsidian, as Linter often causes problems with Annotator. Disable Linter in the Obsidian vault used for scripts.
 - ScriptSheet does not differentiate between Annotations and Highlights. A highlighted section will be inserted as a cue with no information other than a cue line.
 
 ## Installation
