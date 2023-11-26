@@ -20,7 +20,7 @@ For safety, do not use the original markdown file used to annotate the script. W
 
 ### Basic Use
 
-Run the script by running `$ python ScriptSheet.py path/to/source/file path/to/output/file`. The path to the output file can be any blank .md or .txt file.
+Run the script by running `$ python scriptsheet.py path/to/source/file path/to/output/file`. The path to the output file can be any blank .md or .txt file.
 
 After running, the table in the output file may be inserted into another markdown file, or used on its own for markdownEos.
 
