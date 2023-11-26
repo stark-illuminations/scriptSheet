@@ -79,9 +79,6 @@ def process_cues(
                 cue_json = json.loads(line[1:].strip())
                 json_cues.append(cue_json)
 
-    with open("log.txt", "w") as file:
-        file.write(str(len(json_cues[i])))
-
     # Process the dicts and convert them to cue lines
     for i, cue in enumerate(json_cues):
 
@@ -164,7 +161,6 @@ def process_cues(
         current_line = ["| "]
 
     table_string = "".join((str(x) for x in cue_table))
-    print(table_string)
 
     return table_string
 
@@ -178,6 +174,7 @@ def convert_file(args):
     try:
         with open(source_file, "r") as file:
             lines = file.readlines()
+            
     except FileDoesNotExistError:
         print("Source file does not exist or path is incorrect.")
         quit()
