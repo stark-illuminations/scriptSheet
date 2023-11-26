@@ -1,5 +1,5 @@
 # ScriptSheet
-[[ScriptSheet|scriptsheet.py]] is a rudimentary Python script to convert a set of annotations made by the [Annotator](https://github.com/elias-sundqvist/obsidian-annotator) plugin to a [markdownEos](https://github.com/stark-illuminations/markdownEos)-ready cuelist. It does not require access to the script, just the markdown file used to edit it.
+ScriptSheet is a rudimentary Python script to convert a set of annotations made by the [Annotator](https://github.com/elias-sundqvist/obsidian-annotator) plugin to a [markdownEos](https://github.com/stark-illuminations/markdownEos)-ready cuelist. It does not require access to the script, just the markdown file used to edit it.
 
 ## Known Issues
 ---
